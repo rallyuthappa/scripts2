@@ -2,6 +2,7 @@
 hostname > /tmp/host
 echo 1 >> /tmp/log.txt
 date >> /tmp/log.txt
+/bin/sleep 120
 echo 2 >> /tmp/log.txt
 date >> /tmp/log.txt
 echo 3 >> /tmp/log.txt
