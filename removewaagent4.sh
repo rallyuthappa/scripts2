@@ -1,7 +1,7 @@
 #!/bin/sh
 hostname > /tmp/host
 date >> /tmp/log.txt
-#/bin/sleep 180
+/bin/sleep 120
 date >> /tmp/log.txt
 echo hostname $HOSTNAME >> /tmp/log.txt
 export AZHOST=$(cat /tmp/host)
